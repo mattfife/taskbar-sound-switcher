@@ -8,9 +8,11 @@ Taskbar Sound Switcher is a Win32 application that runs in the Windows taskbar a
 
 ###Usage
 When you first open the application, you'll be greeted with a pop-up dialog that shows all of your audio output devices. This is the same list you'll see if you right-click the built-in sound tray icon and select 'Playback devices':
+
 ![Device Selection Dialog](http://i61.tinypic.com/2eap0yq.jpg)
 
 From this list, select all the different devices you'd like to quick-switch between. You can pick as many devices from this list if you'd like. In my case, I am choosing between my speakers and my Logitech headset:
+
 ![Device Selection Dialog](http://i62.tinypic.com/jfewq8.jpg)
 
 You'll now see the tray icon in your taskbar area. By double-clicking on the icon, you can change between the devices you selected between:
