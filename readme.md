@@ -1,12 +1,12 @@
 # Taskbar Sound Switcher
 
-###Introduction
+### Introduction
 This Windows tray application allows you to select a subset of your current audio output devices and quickly switch between them with a simple double-click on the icon.
 
-###Features
+### Features
 Taskbar Sound Switcher is a Win32 application that runs in the Windows taskbar area. With a simple double-click on the taskbar icon, you can instantly change the audio output device from a list of pre-selected audio output devices on your computer. A right-click allows you to select the device you want directly from a drop-down menu or you can re-select which devices you wish to toggle between. Your selection is saved to a configuration file and remembered each time you start the app.
 
-###Usage
+### Usage
 When you first open the application, you'll be greeted with a pop-up dialog that shows all of your audio output devices. This is the same list you'll see if you right-click the built-in sound tray icon and select 'Playback devices':
 
 ![Device Selection Dialog](http://i61.tinypic.com/2eap0yq.jpg)
@@ -27,7 +27,7 @@ If you right-click on the tray icon, you'll get a quick-select menu that would a
 
 ![Tray Icon](http://i60.tinypic.com/28lc6fc.jpg)
 
-###Supported Platforms
+### Supported Platforms
 This is an Windows-based application. Unfortunately, the audio device switching routines are undocumented and officially unsupported by Microsoft. While these routines have been tested on a number of platforms, there is no guarantee they will work for all devices and all configurations.
 
 If you find a situation in which Taskbar Sound Switcher does not work, please report your audio device and OS/Service Pack version.
@@ -37,7 +37,7 @@ Tested platforms:
 * Windows 8.0 
 * Windows 8.1
 
-###Legal
+### Legal
 This application is distributed under the 'new' BSD license:
 
 Copyright (c) 2015, Matthew Fife All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
