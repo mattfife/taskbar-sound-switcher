@@ -7,25 +7,14 @@ This Windows tray application allows you to select a subset of your current audi
 Taskbar Sound Switcher is a Win32 application that runs in the Windows taskbar area. With a simple double-click on the taskbar icon, you can instantly change the audio output device from a list of pre-selected audio output devices on your computer. A right-click allows you to select the device you want directly from a drop-down menu or you can re-select which devices you wish to toggle between. Your selection is saved to a configuration file and remembered each time you start the app.
 
 ### Usage
-When you first open the application, you'll be greeted with a pop-up dialog that shows all of your audio output devices. This is the same list you'll see if you right-click the built-in sound tray icon and select 'Playback devices':
-
-![Device Selection Dialog](http://i61.tinypic.com/2eap0yq.jpg)
-
-From this list, select all the different devices you'd like to quick-switch between. You can pick as many devices from this list if you'd like. In my case, I am choosing between my speakers and my Logitech headset:
-
-![Device Selection Dialog](http://i62.tinypic.com/jfewq8.jpg)
+When you first open the application, you'll be greeted with a pop-up dialog that shows all of your audio output devices. This is the same list you'll see if you right-click the built-in sound tray icon and select 'Playback devices'. From this list, select all the different devices you'd like to quick-switch between. You can pick as many devices from this list if you'd like. In my case, I am choosing between my speakers and a Logitech headset (for example).
 
 You'll now see the tray icon in your taskbar area. By double-clicking on the icon, you can change between the devices you selected between:
+![Device Selection Dialog](https://mattfife.com/special/taskbarsound/soundbarimage.png)
 
-![Tray Icon](http://i62.tinypic.com/yhx0m.jpg)
+The tray icon can change if your device happens to have keywords in the name of the device that indicate it's a headset or speakers.
 
-The tray icon can change if your device happens to have keywords in the name of the device that indicate it's a headset or speakers:
-
-![Tray Icon](http://i62.tinypic.com/107tobl.jpg)
-
-If you right-click on the tray icon, you'll get a quick-select menu that would allow you to select a desired audio output, re-select the list of devices you want to toggle between, or exit the app:
-
-![Tray Icon](http://i60.tinypic.com/28lc6fc.jpg)
+If you right-click on the tray icon, you'll get a quick-select menu that would allow you to select a desired audio output, re-select the list of devices you want to toggle between, or exit the app.
 
 ### Supported Platforms
 This is an Windows-based application. Unfortunately, the audio device switching routines are undocumented and officially unsupported by Microsoft. While these routines have been tested on a number of platforms, there is no guarantee they will work for all devices and all configurations.
